@@ -1,0 +1,22 @@
+{
+  "name": "vkqrgen",
+  "version": "1.0.0",
+  "description": "Generator of QR codes in VK style",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Skachkov S. S. <sergey@skachkov.site>",
+  "license": "ISC",
+  "bin": {
+    "vkqrgen": "./bin/index.js"
+  },
+  "dependencies": {
+    "@vkontakte/vk-qr": "^2.0.13",
+    "chalk": "^5.3.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.29"
+  }
+}
